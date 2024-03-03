@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dumball/code/pytorch-scratch/mlruns/0/94dc6d0a556a4e8cbb44146f647a966f/artifacts
+end_time: 1708958886488
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 94dc6d0a556a4e8cbb44146f647a966f
+run_name: popular-fly-114
+run_uuid: 94dc6d0a556a4e8cbb44146f647a966f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708958879447
+status: 3
+tags: []
+user_id: dumball

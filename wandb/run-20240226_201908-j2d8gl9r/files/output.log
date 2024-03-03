@@ -1,0 +1,12 @@
+/home/dumball/code/new/lib/python3.11/site-packages/torch/nn/modules/loss.py:536: UserWarning: Using a target size (torch.Size([32, 1])) that is different to the input size (torch.Size([32, 2])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/dumball/code/new/lib/python3.11/site-packages/torch/nn/modules/loss.py:536: UserWarning: Using a target size (torch.Size([4, 1])) that is different to the input size (torch.Size([4, 2])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/dumball/code/new/lib/python3.11/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+Traceback (most recent call last):
+  File "/home/dumball/code/pytorch-scratch/main.py", line 57, in <module>
+    mlflow.pytorch.save_model("runs:/2/pytorch-model", "local_model")
+  File "/home/dumball/code/new/lib/python3.11/site-packages/mlflow/pytorch/__init__.py", line 440, in save_model
+    raise TypeError("Argument 'pytorch_model' should be a torch.nn.Module")
+TypeError: Argument 'pytorch_model' should be a torch.nn.Module
