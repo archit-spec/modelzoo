@@ -1,0 +1,38 @@
+Traceback (most recent call last):
+  File "/home/dumball/code/pytorch-scratch/alo2.py", line 50, in <module>
+    with mlflow.start_run():
+         ^^^^^^^^^^^^^^^^^^
+  File "/home/dumball/code/new/lib/python3.11/site-packages/mlflow/tracking/fluent.py", line 308, in start_run
+    client = MlflowClient()
+             ^^^^^^^^^^^^^^
+  File "/home/dumball/code/new/lib/python3.11/site-packages/mlflow/tracking/client.py", line 93, in __init__
+    self._tracking_client = TrackingServiceClient(final_tracking_uri)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dumball/code/new/lib/python3.11/site-packages/mlflow/tracking/_tracking_service/client.py", line 52, in __init__
+    self.store
+  File "/home/dumball/code/new/lib/python3.11/site-packages/mlflow/tracking/_tracking_service/client.py", line 56, in store
+    return utils._get_store(self.tracking_uri)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dumball/code/new/lib/python3.11/site-packages/mlflow/tracking/_tracking_service/utils.py", line 220, in _get_store
+    return _tracking_store_registry.get_store(store_uri, artifact_uri)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dumball/code/new/lib/python3.11/site-packages/mlflow/tracking/_tracking_service/registry.py", line 39, in get_store
+    return self._get_store_with_resolved_uri(resolved_store_uri, artifact_uri)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dumball/code/new/lib/python3.11/site-packages/mlflow/tracking/_tracking_service/registry.py", line 49, in _get_store_with_resolved_uri
+    return builder(store_uri=resolved_store_uri, artifact_uri=artifact_uri)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dumball/code/new/lib/python3.11/site-packages/mlflow/tracking/_tracking_service/utils.py", line 130, in _get_file_store
+    return FileStore(store_uri, store_uri)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dumball/code/new/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 172, in __init__
+    self._create_default_experiment()
+  File "/home/dumball/code/new/lib/python3.11/site-packages/mlflow/store/tracking/file_store.py", line 178, in _create_default_experiment
+    mkdir(self.root_directory)
+  File "/home/dumball/code/new/lib/python3.11/site-packages/mlflow/utils/file_utils.py", line 212, in mkdir
+    raise e
+  File "/home/dumball/code/new/lib/python3.11/site-packages/mlflow/utils/file_utils.py", line 209, in mkdir
+    os.makedirs(target)
+  File "<frozen os>", line 215, in makedirs
+  File "<frozen os>", line 225, in makedirs
+PermissionError: [Errno 13] Permission denied: '/mnt/data'

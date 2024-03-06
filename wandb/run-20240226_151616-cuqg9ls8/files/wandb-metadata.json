@@ -1,0 +1,88 @@
+{
+    "os": "Linux-6.2.0-39-generic-x86_64-with-glibc2.37",
+    "python": "3.11.4",
+    "heartbeatAt": "2024-02-26T09:46:17.540929",
+    "startedAt": "2024-02-26T09:46:16.323242",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/dumball/code/pytorch-scratch/main.py",
+    "codePathLocal": "main.py",
+    "codePath": "main.py",
+    "git": {
+        "remote": null,
+        "commit": null
+    },
+    "email": "archit1290@gmail.com",
+    "root": "/home/dumball/code/pytorch-scratch",
+    "host": "dumball",
+    "username": "dumball",
+    "executable": "/home/dumball/code/new/bin/python3",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 3030.329375,
+        "min": 1400.0,
+        "max": 2300.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2967.88,
+            "min": 1400.0,
+            "max": 2300.0
+        },
+        {
+            "current": 2729.948,
+            "min": 1400.0,
+            "max": 2300.0
+        },
+        {
+            "current": 2665.498,
+            "min": 1400.0,
+            "max": 2300.0
+        },
+        {
+            "current": 2661.88,
+            "min": 1400.0,
+            "max": 2300.0
+        },
+        {
+            "current": 3990.694,
+            "min": 1400.0,
+            "max": 2300.0
+        },
+        {
+            "current": 3965.448,
+            "min": 1400.0,
+            "max": 2300.0
+        },
+        {
+            "current": 3194.084,
+            "min": 1400.0,
+            "max": 2300.0
+        },
+        {
+            "current": 3193.629,
+            "min": 1400.0,
+            "max": 2300.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 468.1334686279297,
+            "used": 290.22180557250977
+        }
+    },
+    "gpu": "NVIDIA GeForce GTX 1650",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1650",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 13.575370788574219
+    }
+}

@@ -1,0 +1,182 @@
+2024-02-26 15:14:22,459 INFO    StreamThr :124613 [internal.py:wandb_internal():86] W&B internal server running at pid: 124613, started at: 2024-02-26 15:14:22.458918
+2024-02-26 15:14:22,460 DEBUG   HandlerThread:124613 [handler.py:handle_request():146] handle_request: status
+2024-02-26 15:14:22,463 INFO    WriterThread:124613 [datastore.py:open_for_write():87] open: /home/dumball/code/pytorch-scratch/wandb/run-20240226_151422-m94jqncc/run-m94jqncc.wandb
+2024-02-26 15:14:22,464 DEBUG   SenderThread:124613 [sender.py:send():382] send: header
+2024-02-26 15:14:22,464 DEBUG   SenderThread:124613 [sender.py:send():382] send: run
+2024-02-26 15:14:23,393 INFO    SenderThread:124613 [dir_watcher.py:__init__():211] watching files in: /home/dumball/code/pytorch-scratch/wandb/run-20240226_151422-m94jqncc/files
+2024-02-26 15:14:23,393 INFO    SenderThread:124613 [sender.py:_start_run_threads():1136] run started: m94jqncc with start time 1708940662.458937
+2024-02-26 15:14:23,400 DEBUG   HandlerThread:124613 [handler.py:handle_request():146] handle_request: check_version
+2024-02-26 15:14:23,400 DEBUG   SenderThread:124613 [sender.py:send_request():409] send_request: check_version
+2024-02-26 15:14:23,497 DEBUG   HandlerThread:124613 [handler.py:handle_request():146] handle_request: run_start
+2024-02-26 15:14:23,533 DEBUG   HandlerThread:124613 [system_info.py:__init__():27] System info init
+2024-02-26 15:14:23,533 DEBUG   HandlerThread:124613 [system_info.py:__init__():42] System info init done
+2024-02-26 15:14:23,533 INFO    HandlerThread:124613 [system_monitor.py:start():194] Starting system monitor
+2024-02-26 15:14:23,533 INFO    SystemMonitor:124613 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-02-26 15:14:23,534 INFO    HandlerThread:124613 [system_monitor.py:probe():214] Collecting system info
+2024-02-26 15:14:23,534 INFO    SystemMonitor:124613 [interfaces.py:start():190] Started cpu monitoring
+2024-02-26 15:14:23,535 INFO    SystemMonitor:124613 [interfaces.py:start():190] Started disk monitoring
+2024-02-26 15:14:23,536 INFO    SystemMonitor:124613 [interfaces.py:start():190] Started gpu monitoring
+2024-02-26 15:14:23,537 INFO    SystemMonitor:124613 [interfaces.py:start():190] Started memory monitoring
+2024-02-26 15:14:23,538 INFO    SystemMonitor:124613 [interfaces.py:start():190] Started network monitoring
+2024-02-26 15:14:23,546 DEBUG   HandlerThread:124613 [system_info.py:probe():151] Probing system
+2024-02-26 15:14:23,548 DEBUG   HandlerThread:124613 [system_info.py:_probe_git():136] Probing git
+2024-02-26 15:14:23,552 DEBUG   HandlerThread:124613 [system_info.py:_probe_git():144] Probing git done
+2024-02-26 15:14:23,552 DEBUG   HandlerThread:124613 [system_info.py:probe():199] Probing system done
+2024-02-26 15:14:23,552 DEBUG   HandlerThread:124613 [system_monitor.py:probe():223] {'os': 'Linux-6.2.0-39-generic-x86_64-with-glibc2.37', 'python': '3.11.4', 'heartbeatAt': '2024-02-26T09:44:23.546253', 'startedAt': '2024-02-26T09:44:22.454191', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/dumball/code/pytorch-scratch/main.py', 'codePathLocal': 'main.py', 'codePath': 'main.py', 'git': {'remote': None, 'commit': None}, 'email': 'archit1290@gmail.com', 'root': '/home/dumball/code/pytorch-scratch', 'host': 'dumball', 'username': 'dumball', 'executable': '/home/dumball/code/new/bin/python3', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 3439.686875, 'min': 1400.0, 'max': 2300.0}, 'cpu_freq_per_core': [{'current': 3733.342, 'min': 1400.0, 'max': 2300.0}, {'current': 3829.513, 'min': 1400.0, 'max': 2300.0}, {'current': 3292.506, 'min': 1400.0, 'max': 2300.0}, {'current': 3607.015, 'min': 1400.0, 'max': 2300.0}, {'current': 3175.245, 'min': 1400.0, 'max': 2300.0}, {'current': 3643.24, 'min': 1400.0, 'max': 2300.0}, {'current': 3264.222, 'min': 1400.0, 'max': 2300.0}, {'current': 3363.574, 'min': 1400.0, 'max': 2300.0}], 'disk': {'/': {'total': 468.1334686279297, 'used': 290.2210922241211}}, 'gpu': 'NVIDIA GeForce GTX 1650', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1650', 'memory_total': 4294967296}], 'memory': {'total': 13.575370788574219}}
+2024-02-26 15:14:23,552 INFO    HandlerThread:124613 [system_monitor.py:probe():224] Finished collecting system info
+2024-02-26 15:14:23,552 INFO    HandlerThread:124613 [system_monitor.py:probe():227] Publishing system info
+2024-02-26 15:14:23,553 INFO    HandlerThread:124613 [system_monitor.py:probe():229] Finished publishing system info
+2024-02-26 15:14:23,557 DEBUG   SenderThread:124613 [sender.py:send():382] send: files
+2024-02-26 15:14:23,557 INFO    SenderThread:124613 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-02-26 15:14:23,562 DEBUG   HandlerThread:124613 [handler.py:handle_request():146] handle_request: python_packages
+2024-02-26 15:14:23,562 DEBUG   SenderThread:124613 [sender.py:send_request():409] send_request: python_packages
+2024-02-26 15:14:23,562 DEBUG   HandlerThread:124613 [handler.py:handle_request():146] handle_request: stop_status
+2024-02-26 15:14:23,563 DEBUG   HandlerThread:124613 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-26 15:14:23,563 DEBUG   SenderThread:124613 [sender.py:send_request():409] send_request: stop_status
+2024-02-26 15:14:24,296 DEBUG   SenderThread:124613 [sender.py:send():382] send: telemetry
+2024-02-26 15:14:24,298 DEBUG   SenderThread:124613 [sender.py:send():382] send: exit
+2024-02-26 15:14:24,298 INFO    SenderThread:124613 [sender.py:send_exit():589] handling exit code: 1
+2024-02-26 15:14:24,298 INFO    SenderThread:124613 [sender.py:send_exit():591] handling runtime: 0
+2024-02-26 15:14:24,299 INFO    SenderThread:124613 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-26 15:14:24,299 INFO    SenderThread:124613 [sender.py:send_exit():597] send defer
+2024-02-26 15:14:24,299 DEBUG   HandlerThread:124613 [handler.py:handle_request():146] handle_request: defer
+2024-02-26 15:14:24,299 INFO    HandlerThread:124613 [handler.py:handle_request_defer():172] handle defer: 0
+2024-02-26 15:14:24,299 DEBUG   SenderThread:124613 [sender.py:send_request():409] send_request: defer
+2024-02-26 15:14:24,299 INFO    SenderThread:124613 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-02-26 15:14:24,300 INFO    SenderThread:124613 [sender.py:transition_state():617] send defer: 1
+2024-02-26 15:14:24,300 DEBUG   HandlerThread:124613 [handler.py:handle_request():146] handle_request: defer
+2024-02-26 15:14:24,300 INFO    HandlerThread:124613 [handler.py:handle_request_defer():172] handle defer: 1
+2024-02-26 15:14:24,300 DEBUG   SenderThread:124613 [sender.py:send_request():409] send_request: defer
+2024-02-26 15:14:24,300 INFO    SenderThread:124613 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-02-26 15:14:24,300 INFO    SenderThread:124613 [sender.py:transition_state():617] send defer: 2
+2024-02-26 15:14:24,300 DEBUG   HandlerThread:124613 [handler.py:handle_request():146] handle_request: defer
+2024-02-26 15:14:24,300 INFO    HandlerThread:124613 [handler.py:handle_request_defer():172] handle defer: 2
+2024-02-26 15:14:24,300 INFO    HandlerThread:124613 [system_monitor.py:finish():203] Stopping system monitor
+2024-02-26 15:14:24,301 DEBUG   SystemMonitor:124613 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-02-26 15:14:24,301 DEBUG   SystemMonitor:124613 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-02-26 15:14:24,301 DEBUG   SystemMonitor:124613 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-02-26 15:14:24,302 INFO    HandlerThread:124613 [interfaces.py:finish():202] Joined cpu monitor
+2024-02-26 15:14:24,302 INFO    HandlerThread:124613 [interfaces.py:finish():202] Joined disk monitor
+2024-02-26 15:14:24,390 INFO    HandlerThread:124613 [interfaces.py:finish():202] Joined gpu monitor
+2024-02-26 15:14:24,390 INFO    HandlerThread:124613 [interfaces.py:finish():202] Joined memory monitor
+2024-02-26 15:14:24,390 INFO    HandlerThread:124613 [interfaces.py:finish():202] Joined network monitor
+2024-02-26 15:14:24,391 DEBUG   SenderThread:124613 [sender.py:send_request():409] send_request: defer
+2024-02-26 15:14:24,391 INFO    SenderThread:124613 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-02-26 15:14:24,391 INFO    SenderThread:124613 [sender.py:transition_state():617] send defer: 3
+2024-02-26 15:14:24,391 DEBUG   SenderThread:124613 [sender.py:send():382] send: stats
+2024-02-26 15:14:24,391 DEBUG   HandlerThread:124613 [handler.py:handle_request():146] handle_request: defer
+2024-02-26 15:14:24,391 INFO    HandlerThread:124613 [handler.py:handle_request_defer():172] handle defer: 3
+2024-02-26 15:14:24,391 DEBUG   SenderThread:124613 [sender.py:send_request():409] send_request: defer
+2024-02-26 15:14:24,392 INFO    SenderThread:124613 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-02-26 15:14:24,392 INFO    SenderThread:124613 [sender.py:transition_state():617] send defer: 4
+2024-02-26 15:14:24,392 DEBUG   HandlerThread:124613 [handler.py:handle_request():146] handle_request: defer
+2024-02-26 15:14:24,392 INFO    HandlerThread:124613 [handler.py:handle_request_defer():172] handle defer: 4
+2024-02-26 15:14:24,392 DEBUG   SenderThread:124613 [sender.py:send_request():409] send_request: defer
+2024-02-26 15:14:24,392 INFO    SenderThread:124613 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-02-26 15:14:24,393 INFO    SenderThread:124613 [sender.py:transition_state():617] send defer: 5
+2024-02-26 15:14:24,393 DEBUG   HandlerThread:124613 [handler.py:handle_request():146] handle_request: defer
+2024-02-26 15:14:24,393 INFO    HandlerThread:124613 [handler.py:handle_request_defer():172] handle defer: 5
+2024-02-26 15:14:24,393 DEBUG   SenderThread:124613 [sender.py:send():382] send: summary
+2024-02-26 15:14:24,393 INFO    SenderThread:124613 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-02-26 15:14:24,394 DEBUG   SenderThread:124613 [sender.py:send_request():409] send_request: defer
+2024-02-26 15:14:24,394 INFO    SenderThread:124613 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-02-26 15:14:24,395 INFO    Thread-13 :124613 [dir_watcher.py:_on_file_created():271] file/dir created: /home/dumball/code/pytorch-scratch/wandb/run-20240226_151422-m94jqncc/files/output.log
+2024-02-26 15:14:24,395 INFO    SenderThread:124613 [sender.py:transition_state():617] send defer: 6
+2024-02-26 15:14:24,395 INFO    Thread-13 :124613 [dir_watcher.py:_on_file_created():271] file/dir created: /home/dumball/code/pytorch-scratch/wandb/run-20240226_151422-m94jqncc/files/wandb-metadata.json
+2024-02-26 15:14:24,396 DEBUG   HandlerThread:124613 [handler.py:handle_request():146] handle_request: defer
+2024-02-26 15:14:24,396 INFO    Thread-13 :124613 [dir_watcher.py:_on_file_created():271] file/dir created: /home/dumball/code/pytorch-scratch/wandb/run-20240226_151422-m94jqncc/files/wandb-summary.json
+2024-02-26 15:14:24,396 INFO    HandlerThread:124613 [handler.py:handle_request_defer():172] handle defer: 6
+2024-02-26 15:14:24,396 INFO    Thread-13 :124613 [dir_watcher.py:_on_file_created():271] file/dir created: /home/dumball/code/pytorch-scratch/wandb/run-20240226_151422-m94jqncc/files/requirements.txt
+2024-02-26 15:14:24,396 DEBUG   SenderThread:124613 [sender.py:send_request():409] send_request: defer
+2024-02-26 15:14:24,396 INFO    SenderThread:124613 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-02-26 15:14:24,402 DEBUG   HandlerThread:124613 [handler.py:handle_request():146] handle_request: status_report
+2024-02-26 15:14:24,608 DEBUG   HandlerThread:124613 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-26 15:14:24,715 INFO    SenderThread:124613 [sender.py:transition_state():617] send defer: 7
+2024-02-26 15:14:24,715 DEBUG   SenderThread:124613 [sender.py:send_request():409] send_request: poll_exit
+2024-02-26 15:14:24,715 DEBUG   HandlerThread:124613 [handler.py:handle_request():146] handle_request: defer
+2024-02-26 15:14:24,715 INFO    HandlerThread:124613 [handler.py:handle_request_defer():172] handle defer: 7
+2024-02-26 15:14:24,716 DEBUG   SenderThread:124613 [sender.py:send_request():409] send_request: defer
+2024-02-26 15:14:24,716 INFO    SenderThread:124613 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-02-26 15:14:24,863 INFO    wandb-upload_0:124613 [upload_job.py:push():131] Uploaded file /tmp/tmpilbxn6r7wandb/gtn566fo-wandb-metadata.json
+2024-02-26 15:14:25,395 INFO    Thread-13 :124613 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/dumball/code/pytorch-scratch/wandb/run-20240226_151422-m94jqncc/files/config.yaml
+2024-02-26 15:14:25,608 DEBUG   HandlerThread:124613 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-26 15:14:26,300 INFO    SenderThread:124613 [sender.py:transition_state():617] send defer: 8
+2024-02-26 15:14:26,300 DEBUG   SenderThread:124613 [sender.py:send_request():409] send_request: poll_exit
+2024-02-26 15:14:26,300 DEBUG   HandlerThread:124613 [handler.py:handle_request():146] handle_request: defer
+2024-02-26 15:14:26,300 INFO    HandlerThread:124613 [handler.py:handle_request_defer():172] handle defer: 8
+2024-02-26 15:14:26,301 DEBUG   SenderThread:124613 [sender.py:send_request():409] send_request: defer
+2024-02-26 15:14:26,301 INFO    SenderThread:124613 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-02-26 15:14:26,301 INFO    SenderThread:124613 [job_builder.py:build():296] Attempting to build job artifact
+2024-02-26 15:14:26,301 INFO    SenderThread:124613 [job_builder.py:_get_source_type():437] no source found
+2024-02-26 15:14:26,301 INFO    SenderThread:124613 [sender.py:transition_state():617] send defer: 9
+2024-02-26 15:14:26,301 DEBUG   HandlerThread:124613 [handler.py:handle_request():146] handle_request: defer
+2024-02-26 15:14:26,301 INFO    HandlerThread:124613 [handler.py:handle_request_defer():172] handle defer: 9
+2024-02-26 15:14:26,301 DEBUG   SenderThread:124613 [sender.py:send_request():409] send_request: defer
+2024-02-26 15:14:26,301 INFO    SenderThread:124613 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-02-26 15:14:26,301 INFO    SenderThread:124613 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-02-26 15:14:26,395 INFO    Thread-13 :124613 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/dumball/code/pytorch-scratch/wandb/run-20240226_151422-m94jqncc/files/output.log
+2024-02-26 15:14:26,396 INFO    SenderThread:124613 [dir_watcher.py:finish():388] scan: /home/dumball/code/pytorch-scratch/wandb/run-20240226_151422-m94jqncc/files
+2024-02-26 15:14:26,396 INFO    SenderThread:124613 [dir_watcher.py:finish():402] scan save: /home/dumball/code/pytorch-scratch/wandb/run-20240226_151422-m94jqncc/files/wandb-metadata.json wandb-metadata.json
+2024-02-26 15:14:26,396 INFO    SenderThread:124613 [dir_watcher.py:finish():402] scan save: /home/dumball/code/pytorch-scratch/wandb/run-20240226_151422-m94jqncc/files/output.log output.log
+2024-02-26 15:14:26,396 INFO    SenderThread:124613 [dir_watcher.py:finish():402] scan save: /home/dumball/code/pytorch-scratch/wandb/run-20240226_151422-m94jqncc/files/config.yaml config.yaml
+2024-02-26 15:14:26,398 INFO    SenderThread:124613 [dir_watcher.py:finish():402] scan save: /home/dumball/code/pytorch-scratch/wandb/run-20240226_151422-m94jqncc/files/wandb-summary.json wandb-summary.json
+2024-02-26 15:14:26,400 INFO    SenderThread:124613 [dir_watcher.py:finish():402] scan save: /home/dumball/code/pytorch-scratch/wandb/run-20240226_151422-m94jqncc/files/requirements.txt requirements.txt
+2024-02-26 15:14:26,403 INFO    SenderThread:124613 [sender.py:transition_state():617] send defer: 10
+2024-02-26 15:14:26,405 DEBUG   HandlerThread:124613 [handler.py:handle_request():146] handle_request: defer
+2024-02-26 15:14:26,405 INFO    HandlerThread:124613 [handler.py:handle_request_defer():172] handle defer: 10
+2024-02-26 15:14:26,406 DEBUG   SenderThread:124613 [sender.py:send_request():409] send_request: defer
+2024-02-26 15:14:26,406 INFO    SenderThread:124613 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-02-26 15:14:26,406 INFO    SenderThread:124613 [file_pusher.py:finish():172] shutting down file pusher
+2024-02-26 15:14:26,609 DEBUG   HandlerThread:124613 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-26 15:14:26,609 DEBUG   SenderThread:124613 [sender.py:send_request():409] send_request: poll_exit
+2024-02-26 15:14:27,079 INFO    wandb-upload_1:124613 [upload_job.py:push():131] Uploaded file /home/dumball/code/pytorch-scratch/wandb/run-20240226_151422-m94jqncc/files/config.yaml
+2024-02-26 15:14:27,275 INFO    wandb-upload_0:124613 [upload_job.py:push():131] Uploaded file /home/dumball/code/pytorch-scratch/wandb/run-20240226_151422-m94jqncc/files/output.log
+2024-02-26 15:14:27,341 INFO    wandb-upload_2:124613 [upload_job.py:push():131] Uploaded file /home/dumball/code/pytorch-scratch/wandb/run-20240226_151422-m94jqncc/files/wandb-summary.json
+2024-02-26 15:14:27,395 INFO    wandb-upload_3:124613 [upload_job.py:push():131] Uploaded file /home/dumball/code/pytorch-scratch/wandb/run-20240226_151422-m94jqncc/files/requirements.txt
+2024-02-26 15:14:27,596 INFO    Thread-12 (_thread_body):124613 [sender.py:transition_state():617] send defer: 11
+2024-02-26 15:14:27,597 DEBUG   HandlerThread:124613 [handler.py:handle_request():146] handle_request: defer
+2024-02-26 15:14:27,597 INFO    HandlerThread:124613 [handler.py:handle_request_defer():172] handle defer: 11
+2024-02-26 15:14:27,597 DEBUG   SenderThread:124613 [sender.py:send_request():409] send_request: defer
+2024-02-26 15:14:27,597 INFO    SenderThread:124613 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-02-26 15:14:27,597 INFO    SenderThread:124613 [file_pusher.py:join():178] waiting for file pusher
+2024-02-26 15:14:27,597 INFO    SenderThread:124613 [sender.py:transition_state():617] send defer: 12
+2024-02-26 15:14:27,597 DEBUG   HandlerThread:124613 [handler.py:handle_request():146] handle_request: defer
+2024-02-26 15:14:27,598 INFO    HandlerThread:124613 [handler.py:handle_request_defer():172] handle defer: 12
+2024-02-26 15:14:27,598 DEBUG   SenderThread:124613 [sender.py:send_request():409] send_request: defer
+2024-02-26 15:14:27,598 INFO    SenderThread:124613 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-02-26 15:14:27,598 INFO    SenderThread:124613 [file_stream.py:finish():595] file stream finish called
+2024-02-26 15:14:27,610 DEBUG   HandlerThread:124613 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-26 15:14:27,881 INFO    SenderThread:124613 [file_stream.py:finish():599] file stream finish is done
+2024-02-26 15:14:27,881 INFO    SenderThread:124613 [sender.py:transition_state():617] send defer: 13
+2024-02-26 15:14:27,881 DEBUG   SenderThread:124613 [sender.py:send_request():409] send_request: poll_exit
+2024-02-26 15:14:27,881 DEBUG   HandlerThread:124613 [handler.py:handle_request():146] handle_request: defer
+2024-02-26 15:14:27,882 INFO    HandlerThread:124613 [handler.py:handle_request_defer():172] handle defer: 13
+2024-02-26 15:14:27,882 DEBUG   SenderThread:124613 [sender.py:send_request():409] send_request: defer
+2024-02-26 15:14:27,882 INFO    SenderThread:124613 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-02-26 15:14:27,882 INFO    SenderThread:124613 [sender.py:transition_state():617] send defer: 14
+2024-02-26 15:14:27,882 DEBUG   HandlerThread:124613 [handler.py:handle_request():146] handle_request: defer
+2024-02-26 15:14:27,882 DEBUG   SenderThread:124613 [sender.py:send():382] send: final
+2024-02-26 15:14:27,882 INFO    HandlerThread:124613 [handler.py:handle_request_defer():172] handle defer: 14
+2024-02-26 15:14:27,882 DEBUG   SenderThread:124613 [sender.py:send():382] send: footer
+2024-02-26 15:14:27,883 DEBUG   SenderThread:124613 [sender.py:send_request():409] send_request: defer
+2024-02-26 15:14:27,883 INFO    SenderThread:124613 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-02-26 15:14:27,883 DEBUG   HandlerThread:124613 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-26 15:14:27,884 DEBUG   SenderThread:124613 [sender.py:send_request():409] send_request: poll_exit
+2024-02-26 15:14:27,884 DEBUG   HandlerThread:124613 [handler.py:handle_request():146] handle_request: poll_exit
+2024-02-26 15:14:27,884 DEBUG   HandlerThread:124613 [handler.py:handle_request():146] handle_request: server_info
+2024-02-26 15:14:27,884 DEBUG   HandlerThread:124613 [handler.py:handle_request():146] handle_request: get_summary
+2024-02-26 15:14:27,885 DEBUG   SenderThread:124613 [sender.py:send_request():409] send_request: poll_exit
+2024-02-26 15:14:27,885 DEBUG   SenderThread:124613 [sender.py:send_request():409] send_request: server_info
+2024-02-26 15:14:27,887 DEBUG   HandlerThread:124613 [handler.py:handle_request():146] handle_request: sampled_history
+2024-02-26 15:14:27,887 DEBUG   HandlerThread:124613 [handler.py:handle_request():146] handle_request: internal_messages
+2024-02-26 15:14:27,888 DEBUG   HandlerThread:124613 [handler.py:handle_request():146] handle_request: job_info
+2024-02-26 15:14:28,161 DEBUG   SenderThread:124613 [sender.py:send_request():409] send_request: job_info
+2024-02-26 15:14:28,161 INFO    MainThread:124613 [wandb_run.py:_footer_history_summary_info():3866] rendering history
+2024-02-26 15:14:28,161 INFO    MainThread:124613 [wandb_run.py:_footer_history_summary_info():3898] rendering summary
+2024-02-26 15:14:28,161 INFO    MainThread:124613 [wandb_run.py:_footer_sync_info():3825] logging synced files
+2024-02-26 15:14:28,161 DEBUG   HandlerThread:124613 [handler.py:handle_request():146] handle_request: shutdown
+2024-02-26 15:14:28,162 INFO    HandlerThread:124613 [handler.py:finish():869] shutting down handler
+2024-02-26 15:14:28,888 INFO    WriterThread:124613 [datastore.py:close():296] close: /home/dumball/code/pytorch-scratch/wandb/run-20240226_151422-m94jqncc/run-m94jqncc.wandb
+2024-02-26 15:14:29,161 INFO    SenderThread:124613 [sender.py:finish():1572] shutting down sender
+2024-02-26 15:14:29,161 INFO    SenderThread:124613 [file_pusher.py:finish():172] shutting down file pusher
+2024-02-26 15:14:29,161 INFO    SenderThread:124613 [file_pusher.py:join():178] waiting for file pusher
