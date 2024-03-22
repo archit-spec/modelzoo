@@ -1,7 +1,0 @@
-/home/dumball/code/new/lib/python3.11/site-packages/torch/nn/modules/loss.py:536: UserWarning: Using a target size (torch.Size([32, 1])) that is different to the input size (torch.Size([32, 2])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
-  return F.mse_loss(input, target, reduction=self.reduction)
-Traceback (most recent call last):
-  File "/home/dumball/code/pytorch-scratch/main.py", line 52, in <module>
-    if i % 100 == 0:  # Print training information and plot loss every 100 steps
-       ^
-NameError: name 'i' is not defined
