@@ -15,3 +15,5 @@ def loss(params, inputs, targets):
     return jnp.mean((predictions - targets)**2)
 
 grad_loss = grad(loss)
+
+

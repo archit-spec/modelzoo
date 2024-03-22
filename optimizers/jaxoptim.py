@@ -1,7 +1,8 @@
 import optax
 
 # Define initial parameters
-params = ...
+params = jax.random.normal(key, (num_layers, num_units))
+
 
 # Define Adam optimizer
 adam_optimizer = optax.adam(learning_rate=1e-3)
